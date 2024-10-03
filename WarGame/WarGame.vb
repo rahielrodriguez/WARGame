@@ -1,10 +1,10 @@
 ﻿
 Public Class WarGame
-
     Private deck As Deck
     Private player1Deck As List(Of Card)
     Private player2Deck As List(Of Card)
     Private random As New Random()
+    Private roundCounter As Integer = 0 ' Initialize the round counter
 
     Private Sub MainForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ' Initialize the deck and shuffle
@@ -14,6 +14,9 @@ Public Class WarGame
         ' Split the deck into two halves, 26 cards for each player
         player1Deck = deck.GetCards(26) ' First half for Player 1
         player2Deck = deck.GetCards(26) ' Second half for Player 2
+
+        ' Display initial round count
+        RoundsTextBox.Text = "Rounds: 0"
     End Sub
 
     Private Sub btnDrawCards_Click(sender As Object, e As EventArgs) Handles ThrowButton.Click
@@ -21,20 +24,31 @@ Public Class WarGame
         Dim player1Card As Card = DrawCardForPlayer(player1Deck)
         Dim player2Card As Card = DrawCardForPlayer(player2Deck)
 
-        ' Display the cards in the respective TextBoxes
-        Card1TextBox.Text = player1Card.ToString()
-        Card2TextBox.Text = player2Card.ToString()
+        ' If both decks have cards, proceed to the next round
+        If player1Card IsNot Nothing And player2Card IsNot Nothing Then
+            ' Display the cards in the respective TextBoxes
+            Card1TextBox.Text = player1Card.ToString()
+            Card2TextBox.Text = player2Card.ToString()
 
-        ' Compare the card values and display the result
-        Dim player1Value As Integer = player1Card.GetCardValue()
-        Dim player2Value As Integer = player2Card.GetCardValue()
+            ' Compare the card values and display the result
+            Dim player1Value As Integer = player1Card.GetCardValue()
+            Dim player2Value As Integer = player2Card.GetCardValue()
 
-        If player1Value > player2Value Then
-            ResultTextBox.Text = "Player 1 wins!"
-        ElseIf player1Value < player2Value Then
-            ResultTextBox.Text = "Player 2 wins!"
+            If player1Value > player2Value Then
+                ResultTextBox.Text = "Player 1 wins!"
+            ElseIf player1Value < player2Value Then
+                ResultTextBox.Text = "Player 2 wins!"
+            Else
+                ResultTextBox.Text = "It's a tie!"
+            End If
+
+            ' Increment the round counter and display it
+            roundCounter += 1
+            RoundsTextBox.Text = "Rounds: " & roundCounter.ToString()
+
         Else
-            ResultTextBox.Text = "It's a tie!"
+            ' If one or both players have no more cards, end the game
+            RoundsTextBox.Text = "No more cards to draw. Game over!"
         End If
     End Sub
 
