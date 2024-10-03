@@ -27,6 +27,7 @@ Partial Class WarGame
         Me.Card2TextBox = New System.Windows.Forms.TextBox()
         Me.ResultTextBox = New System.Windows.Forms.TextBox()
         Me.RoundsTextBox = New System.Windows.Forms.TextBox()
+        Me.NewGameButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'ThrowButton
@@ -66,11 +67,21 @@ Partial Class WarGame
         Me.RoundsTextBox.Size = New System.Drawing.Size(100, 22)
         Me.RoundsTextBox.TabIndex = 4
         '
+        'NewGameButton
+        '
+        Me.NewGameButton.Location = New System.Drawing.Point(613, 266)
+        Me.NewGameButton.Name = "NewGameButton"
+        Me.NewGameButton.Size = New System.Drawing.Size(125, 66)
+        Me.NewGameButton.TabIndex = 5
+        Me.NewGameButton.Text = "New Game"
+        Me.NewGameButton.UseVisualStyleBackColor = True
+        '
         'WarGame
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.NewGameButton)
         Me.Controls.Add(Me.RoundsTextBox)
         Me.Controls.Add(Me.ResultTextBox)
         Me.Controls.Add(Me.Card2TextBox)
@@ -88,4 +99,5 @@ Partial Class WarGame
     Friend WithEvents Card2TextBox As TextBox
     Friend WithEvents ResultTextBox As TextBox
     Friend WithEvents RoundsTextBox As TextBox
+    Friend WithEvents NewGameButton As Button
 End Class

@@ -8,15 +8,7 @@ Public Class WarGame
 
     Private Sub MainForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ' Initialize the deck and shuffle
-        deck = New Deck()
-        deck.Shuffle()
-
-        ' Split the deck into two halves, 26 cards for each player
-        player1Deck = deck.GetCards(26) ' First half for Player 1
-        player2Deck = deck.GetCards(26) ' Second half for Player 2
-
-        ' Display initial round count
-        RoundsTextBox.Text = "Rounds: 0"
+        InitializeGame()
     End Sub
 
     Private Sub btnDrawCards_Click(sender As Object, e As EventArgs) Handles ThrowButton.Click
@@ -45,10 +37,9 @@ Public Class WarGame
             ' Increment the round counter and display it
             roundCounter += 1
             RoundsTextBox.Text = "Rounds: " & roundCounter.ToString()
-
         Else
             ' If one or both players have no more cards, end the game
-            RoundsTextBox.Text = "No more cards to draw. Game over!"
+            ResultTextBox.Text = "No more cards to draw. Game over!"
         End If
     End Sub
 
@@ -63,4 +54,29 @@ Public Class WarGame
             Return Nothing ' Return nothing if the deck is empty
         End If
     End Function
+
+    ' Reset game when reset button is clicked
+    Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles NewGameButton.Click
+        InitializeGame() ' Call the method to initialize a new game
+    End Sub
+
+    ' Method to reset the game state
+    Private Sub InitializeGame()
+        ' Initialize a new deck and shuffle it
+        deck = New Deck()
+        deck.Shuffle()
+
+        ' Split the deck into two halves, 26 cards for each player
+        player1Deck = deck.GetCards(26) ' First half for Player 1
+        player2Deck = deck.GetCards(26) ' Second half for Player 2
+
+        ' Reset the round counter
+        roundCounter = 0
+        RoundsTextBox.Text = "Rounds: 0"
+
+        ' Clear the textboxes for player cards and result
+        Card1TextBox.Clear()
+        Card2TextBox.Clear()
+        ResultTextBox.Clear()
+    End Sub
 End Class
