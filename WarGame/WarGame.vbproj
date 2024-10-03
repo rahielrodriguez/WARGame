@@ -73,6 +73,8 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Card.vb" />
+    <Compile Include="MechanicsClass.vb" />
     <Compile Include="WarGame.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +105,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarGame.resx">
+      <DependentUpon>WarGame.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
