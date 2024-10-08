@@ -65,7 +65,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _10_of_Clubs() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_10_of_Clubs", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("10_of_Clubs", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -75,7 +75,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _10_of_Diamonds() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_10_of_Diamonds", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("10_of_Diamonds", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -85,7 +85,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _10_of_Hearts() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_10_of_Hearts", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("10_of_Hearts", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -95,7 +95,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _10_of_Spades() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_10_of_Spades", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("10_of_Spades", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -105,7 +105,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _2_of_Clubs() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_2_of_Clubs", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("2_of_Clubs", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -115,7 +115,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _2_of_Diamonds() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_2_of_Diamonds", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("2_of_Diamonds", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -125,7 +125,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _2_of_Hearts() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_2_of_Hearts", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("2_of_Hearts", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -135,7 +135,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _2_of_Spades() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_2_of_Spades", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("2_of_Spades", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -145,7 +145,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _3_of_Clubs() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_3_of_Clubs", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("3_of_Clubs", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -155,7 +155,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _3_of_Diamonds() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_3_of_Diamonds", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("3_of_Diamonds", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -165,7 +165,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _3_of_Hearts() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_3_of_Hearts", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("3_of_Hearts", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -175,7 +175,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _3_of_Spades() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_3_of_Spades", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("3_of_Spades", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -185,7 +185,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _4_of_Clubs() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_4_of_Clubs", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("4_of_Clubs", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -195,7 +195,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _4_of_Diamonds() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_4_of_Diamonds", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("4_of_Diamonds", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -205,7 +205,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _4_of_Hearts() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_4_of_Hearts", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("4_of_Hearts", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -215,7 +215,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _4_of_Spades() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_4_of_Spades", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("4_of_Spades", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -225,7 +225,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _5_of_Clubs() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_5_of_Clubs", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("5_of_Clubs", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -235,7 +235,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _5_of_Diamonds() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_5_of_Diamonds", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("5_of_Diamonds", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -245,7 +245,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _5_of_Hearts() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_5_of_Hearts", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("5_of_Hearts", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -255,7 +255,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _5_of_Spades() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_5_of_Spades", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("5_of_Spades", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -265,7 +265,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _6_of_Clubs() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_6_of_Clubs", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("6_of_Clubs", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -275,7 +275,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _6_of_Diamonds() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_6_of_Diamonds", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("6_of_Diamonds", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -285,7 +285,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _6_of_Hearts() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_6_of_Hearts", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("6_of_Hearts", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -295,7 +295,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _6_of_Spades() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_6_of_Spades", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("6_of_Spades", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -305,7 +305,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _7_of_Clubs() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_7_of_Clubs", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("7_of_Clubs", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -315,7 +315,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _7_of_Diamonds() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_7_of_Diamonds", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("7_of_Diamonds", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -325,7 +325,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _7_of_Hearts() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_7_of_Hearts", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("7_of_Hearts", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -335,7 +335,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _7_of_Spades() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_7_of_Spades", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("7_of_Spades", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -345,7 +345,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _8_of_Clubs() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_8_of_Clubs", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("8_of_Clubs", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -355,7 +355,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _8_of_Diamonds() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_8_of_Diamonds", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("8_of_Diamonds", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -365,7 +365,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _8_of_Hearts() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_8_of_Hearts", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("8_of_Hearts", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -375,7 +375,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _8_of_Spades() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_8_of_Spades", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("8_of_Spades", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -385,7 +385,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _9_of_Clubs() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_9_of_Clubs", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("9_of_Clubs", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -395,7 +395,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _9_of_Diamonds() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_9_of_Diamonds", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("9_of_Diamonds", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -405,7 +405,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _9_of_Hearts() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_9_of_Hearts", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("9_of_Hearts", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -415,7 +415,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property _9_of_Spades() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("_9_of_Spades", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("9_of_Spades", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -447,6 +447,16 @@ Namespace My.Resources
             Get
                 Dim obj As Object = ResourceManager.GetObject("A_of_Hearts", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        '''</summary>
+        Friend ReadOnly Property A_of_Hearts1() As System.Drawing.Icon
+            Get
+                Dim obj As Object = ResourceManager.GetObject("A_of_Hearts1", resourceCulture)
+                Return CType(obj,System.Drawing.Icon)
             End Get
         End Property
         

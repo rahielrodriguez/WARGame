@@ -43,4 +43,8 @@
     Public Overrides Function ToString() As String
         Return $"{Rank} of {Suit}"
     End Function
+    Public Function GetCardFileName() As String
+        ' Return a PascalCase filename if your resources use that convention
+        Return Char.ToUpper(Rank(0)) & Rank.Substring(1).ToLower() & "_of_" & Char.ToUpper(Suit(0)) & Suit.Substring(1).ToLower()
+    End Function
 End Class
