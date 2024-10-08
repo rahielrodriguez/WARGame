@@ -1,4 +1,9 @@
-﻿Public Class Deck
+﻿﻿'Rahiel Rodriguez
+'RCET 3371
+'Fall 2024
+'War Game
+'https://github.com/rahielrodriguez/WarGame.git
+Public Class Deck
 
     Private Cards As New List(Of Card)()
     Private RandomGenerator As New Random()

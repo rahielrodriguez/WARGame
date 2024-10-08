@@ -1,4 +1,9 @@
-﻿Public Class Card
+﻿﻿'Rahiel Rodriguez
+'RCET 3371
+'Fall 2024
+'War Game
+'https://github.com/rahielrodriguez/WarGame.git
+Public Class Card
     Public Property Suit As String
     Public Property Rank As String
 

@@ -1,4 +1,8 @@
-﻿
+﻿﻿'Rahiel Rodriguez
+'RCET 3371
+'Fall 2024
+'War Game
+'https://github.com/rahielrodriguez/WarGame.git
 Public Class WarGame
     Private deck As Deck
     Private player1Deck As New List(Of Card)()
